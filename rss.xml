@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom's tech blog]]></title><description><![CDATA[My blog about all tech things I do. Mostly C# Sitecore stuff and home automation using Home assistant. ESP8266 and Raspberry Pi's.]]></description><link>https://tom.stevens.se</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 12 Dec 2020 16:03:23 GMT</lastBuildDate><item><title><![CDATA[Hello world / intro]]></title><description><![CDATA[My home automation has gone through quite a lot of stages. From just running a simple Telldus Net Classic to upgrading to Tellstick Znet…]]></description><link>https://tom.stevens.se/hello-world/</link><guid isPermaLink="false">https://tom.stevens.se/hello-world/</guid><pubDate>Sat, 12 Dec 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;My home automation has gone through quite a lot of stages. From just running a simple Telldus Net Classic to upgrading to Tellstick Znet Lite v2, to my current setup of running a Raspberry Pi4 4GB with Home assistant Supervised.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom's tech blog]]></title><description><![CDATA[My blog about all tech things I do. Mostly C# Sitecore stuff and home automation using Home assistant. ESP8266 and Raspberry Pi's.]]></description><link>https://tom.stevens.se</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 12 Dec 2020 16:09:25 GMT</lastBuildDate><item><title><![CDATA[Hello world / intro]]></title><description><![CDATA[My home automation has gone through quite a lot of stages. From just running a simple Telldus Net Classic to upgrading to Tellstick Znet…]]></description><link>https://tom.stevens.se/hello-world/</link><guid isPermaLink="false">https://tom.stevens.se/hello-world/</guid><pubDate>Sat, 12 Dec 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;My home automation has gone through quite a lot of stages. From just running a simple Telldus Net Classic to upgrading to Tellstick Znet Lite v2, to my current setup of running a Raspberry Pi4 4GB with Home assistant Supervised.&lt;/p&gt;
 &lt;h2&gt;Network&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Unifi USG&lt;/li&gt;
@@ -72,4 +72,35 @@ I also have a small ASRock DeskMini 310 server behind the fan, this is running &
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Connected to the switch via PoE is a Raspberry Pi 4 with 4GB of ram running on latest Raspian lite 64 bit installed on an USB3 SSD. This runs Home Assistant Supervised according to &lt;a href=&quot;https://community.home-assistant.io/t/installing-home-assistant-supervised-on-raspberry-pi-os/201836&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;this guide&lt;/a&gt;. This device has a &lt;a href=&quot;https://phoscon.de/en/conbee2&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ConBee II&lt;/a&gt; for talking to ZigBee devices like Philips Hue and Ikea Trådfri. As well as an RTL2832U based SDR for recieving 433 MHz signals from a bunch of temperature sensors I didn’t want to replace when changing from Telldus, for this I’m using &lt;a href=&quot;https://github.com/merbanan/rtl_433&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;rtl_433&lt;/a&gt; which feeds to MQTT where Home Asssistant picks up the values.&lt;/p&gt;
 &lt;p&gt;For light controlling I’m running a bunch of GoSund SP-111 outlets flashed with &lt;a href=&quot;https://esphome.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ESPHome&lt;/a&gt; as well a couple of &lt;a href=&quot;https://shop.shelly.cloud/shelly-1-wifi-smart-home-automation&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Shelly 1&lt;/a&gt; flashed to &lt;a href=&quot;https://esphome.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ESPHome&lt;/a&gt;. For these two I will write more guides in other posts.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./shellyflash.png&quot; alt=&quot;Shelly 1 flashing&quot;&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6f89e5001099a568a33ab5bd051898e9/93719/shellyflash.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAVKMemIG4f/EABsQAAMAAgMAAAAAAAAAAAAAAAECAxETISIz/9oACAEBAAEFAtpoieJyDs6R5jWZZ//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/Aaf/xAAXEQADAQAAAAAAAAAAAAAAAAABEBFB/9oACAECAQE/AYMX/8QAGxAAAgIDAQAAAAAAAAAAAAAAABEBAiJBUWH/2gAIAQEABj8Cy0RxCIqivg4P/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARITFB/9oACAEBAAE/Ie5V4it11q41p0angs9j26WyWhn/2gAMAwEAAgADAAAAEFAP/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAx/9oACAEDAQE/EBOz/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/ELAx/8QAHhABAAICAQUAAAAAAAAAAAAAAQARIVExQWFx0fD/2gAIAQEAAT8QHOF1WW+8SyxgG8NMZ8KUpU1esPcdWQybFqICAhfn6p//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Shelly 1 flashing&quot;
+        title=&quot;Shelly 1 flashing&quot;
+        src=&quot;/static/6f89e5001099a568a33ab5bd051898e9/0f98f/shellyflash.jpg&quot;
+        srcset=&quot;/static/6f89e5001099a568a33ab5bd051898e9/7cc5e/shellyflash.jpg 480w,
+/static/6f89e5001099a568a33ab5bd051898e9/6a068/shellyflash.jpg 960w,
+/static/6f89e5001099a568a33ab5bd051898e9/0f98f/shellyflash.jpg 1920w,
+/static/6f89e5001099a568a33ab5bd051898e9/eec88/shellyflash.jpg 2880w,
+/static/6f89e5001099a568a33ab5bd051898e9/e6b01/shellyflash.jpg 3840w,
+/static/6f89e5001099a568a33ab5bd051898e9/93719/shellyflash.jpg 4000w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
