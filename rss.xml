@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tom's tech blog]]></title><description><![CDATA[My blog about all tech things I do. Mostly C# Sitecore stuff and home automation using Home assistant. ESP8266 and Raspberry Pi's.]]></description><link>https://tom.stevens.se</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 12 Dec 2020 16:03:23 GMT</lastBuildDate><item><title><![CDATA[Hello world / intro]]></title><description><![CDATA[My home automation has gone through quite a lot of stages. From just running a simple Telldus Net Classic to upgrading to Tellstick Znet…]]></description><link>https://tom.stevens.se/hello-world/</link><guid isPermaLink="false">https://tom.stevens.se/hello-world/</guid><pubDate>Sat, 12 Dec 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;My home automation has gone through quite a lot of stages. From just running a simple Telldus Net Classic to upgrading to Tellstick Znet Lite v2, to my current setup of running a Raspberry Pi4 4GB with Home assistant Supervised.&lt;/p&gt;
+&lt;h2&gt;Network&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Unifi USG&lt;/li&gt;
+&lt;li&gt;UniFi Switch 16 PoE&lt;/li&gt;
+&lt;li&gt;2x Unifi AP AC Pro LR&lt;/li&gt;
+&lt;li&gt;2X Unifi USW-Flex Mini&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c850b029e592e1a15f9205484b54f45f/a4202/rack.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBP/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAEdj2SlHD//xAAaEAEBAAIDAAAAAAAAAAAAAAABAgADEBET/9oACAEBAAEFApYJNpb69ZGUHH//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAQUBAAAAAAAAAAAAAAAAEQECEBIxgVH/2gAIAQEABj8CeM+rIVMLppnTVv/EABwQAAICAgMAAAAAAAAAAAAAAAABESExQWFxkf/aAAgBAQABPyGmyugZwyuRCShyNVrUWWHgj//aAAwDAQACAAMAAAAQTO//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBn/8QAGxABAAMBAQEBAAAAAAAAAAAAAQARITFRYbH/2gAIAQEAAT8QBlGYV/XKh3hipz3lQUNd1K/s0vpr4q5fQ0ukHk0W6z//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Wall mounted rack&quot;
+        title=&quot;Wall mounted rack&quot;
+        src=&quot;/static/c850b029e592e1a15f9205484b54f45f/0f98f/rack.jpg&quot;
+        srcset=&quot;/static/c850b029e592e1a15f9205484b54f45f/7cc5e/rack.jpg 480w,
+/static/c850b029e592e1a15f9205484b54f45f/6a068/rack.jpg 960w,
+/static/c850b029e592e1a15f9205484b54f45f/0f98f/rack.jpg 1920w,
+/static/c850b029e592e1a15f9205484b54f45f/eec88/rack.jpg 2880w,
+/static/c850b029e592e1a15f9205484b54f45f/e6b01/rack.jpg 3840w,
+/static/c850b029e592e1a15f9205484b54f45f/a4202/rack.jpg 3871w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In this rack I have my USG and main switch. This switch powers several PoE surveillance cameras as well at access points and switches.
+I also have a small ASRock DeskMini 310 server behind the fan, this is running &lt;a href=&quot;https://unraid.net&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Unraid&lt;/a&gt; with an i5 8400 and 16GB of ram. For storage it has a 512GiB SSD as well as 2*2TiB drives. This runs a VM for &lt;a href=&quot;https://blueirissoftware.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Blue Iris&lt;/a&gt; for my surveillance cameras as well as Dockers for Plex for videos and music, SABnzbd for downloading and the Unifi controller for all of my network. Previously I also ran Home Assistant on this, but I wanted to migrate that to a native host for various reasons.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1920px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/563c10a2f808d2b51cc5e5da4ebe030e/c5d70/rpi4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 77.91666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAAsTAAALEwEAmpwYAAADhklEQVQoz02R/U8aZwDH77ctTfbDsiWNicu2dE2oxa5KK8qLoiQWO8DXKdqKSDcRi86uZTV1rmZdZrOsbbIl08WoHSrviMdxHNzxcsfB3XGvgGbuz9mhWbLkk+en7+f5fp88wEmV+z91mRp/WhdPT8R6TahV+ZrISjwtcbTIloVzRI6qSZV6nQcagsRecCFXJbYqcZLICjwjsvRZXfjnROQZkvsPli5yTEnkKaAu3yFWzuWLk5XEisDTIkefVvmzU3F3Z/P5+qqckTsrdLEBRchwTBGoC7RMTaCrAiUJlDxJDtWERjQc3ne5nEply8effvJi40e+QnJ0kS7jF7IMUJejbFliSzxLSlz5pNFQCoV8S0tuvUF3w6BqnTCoh3vVHbe9z7wUmRPZEkMVKhR+LlfIGk3WOeqsxgkMEQj85Zp/oOvWtOlVJtfQ9Ktl3Ypd/82U5r65s6vDs/wwm4F4mmDKBfnlQJXO1xiilE1t/PSDfXZKo+28dl1xZ8ZsXbZNrjosM8P9VpNlyGyc+9IycVfVflOtVUOJqFAhGblZKGFVKpdNRdtVrbP2Md/2615z3/jzr5wvFwedw1392p67RqP5TtcX+oHFUY2pZ9o5TRYyXGM2DrDFNIPDYhn9zutZeeL+7de1xQWHdX7c4rE9m7TYLcbuQaN+sr/fPTjisl291er91vM3R1EE1pCZfJLEjtkC7HHNdOo75t2OUiH26PFCn906/mDknmPQ9NRm8YwNTY9cVSr0uq6Qb6eCYzSOMmQOKKMgjsTyyfDh1hut9vbo5NDCQ+fTlaVgcMvx/VxLT5t5frzD1NvU3DQ1PgpF/QUEJLFUGUcpIgsUM/E8HEkfHWDxg1/WnihvtljHzAjip8vg+vpjncnQ3K683Ny06n2UAaNILJhLxkkULuXTFIECBBLLJkMo6E8Ed1OhHbfD9tnniol7w3Oe2bYBw7sfXb5xXfHH65dIPCyPwxIxHAGLaFL+nVIhDRTgSA4Kocd+OOI79m+D+5sDfdpbGpVar37nvUsDxu7A3mYyGoCjB1gikoePcSSBZ5JFDCZzKUDenIUazanYvlwOHm7v/f5zi+LKhx+87/n6fuzwz3hgF47so2AwC8nyUSEFEg0fIjIQkIPDGBREwQASP0hFfVBwD4m83Xr14s3GWjLyNhHaQ44OZRNLhLLJSB45wtNQEYWL2RSZT/8Lp5w7Ta0gqkEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Raspberry Pi 4 with PoE board&quot;
+        title=&quot;Raspberry Pi 4 with PoE board&quot;
+        src=&quot;/static/563c10a2f808d2b51cc5e5da4ebe030e/29114/rpi4.png&quot;
+        srcset=&quot;/static/563c10a2f808d2b51cc5e5da4ebe030e/e85cb/rpi4.png 480w,
+/static/563c10a2f808d2b51cc5e5da4ebe030e/d9199/rpi4.png 960w,
+/static/563c10a2f808d2b51cc5e5da4ebe030e/29114/rpi4.png 1920w,
+/static/563c10a2f808d2b51cc5e5da4ebe030e/c5d70/rpi4.png 1939w&quot;
+        sizes=&quot;(max-width: 1920px) 100vw, 1920px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Connected to the switch via PoE is a Raspberry Pi 4 with 4GB of ram running on latest Raspian lite 64 bit installed on an USB3 SSD. This runs Home Assistant Supervised according to &lt;a href=&quot;https://community.home-assistant.io/t/installing-home-assistant-supervised-on-raspberry-pi-os/201836&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;this guide&lt;/a&gt;. This device has a &lt;a href=&quot;https://phoscon.de/en/conbee2&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ConBee II&lt;/a&gt; for talking to ZigBee devices like Philips Hue and Ikea Trådfri. As well as an RTL2832U based SDR for recieving 433 MHz signals from a bunch of temperature sensors I didn’t want to replace when changing from Telldus, for this I’m using &lt;a href=&quot;https://github.com/merbanan/rtl_433&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;rtl_433&lt;/a&gt; which feeds to MQTT where Home Asssistant picks up the values.&lt;/p&gt;
+&lt;p&gt;For light controlling I’m running a bunch of GoSund SP-111 outlets flashed with &lt;a href=&quot;https://esphome.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ESPHome&lt;/a&gt; as well a couple of &lt;a href=&quot;https://shop.shelly.cloud/shelly-1-wifi-smart-home-automation&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Shelly 1&lt;/a&gt; flashed to &lt;a href=&quot;https://esphome.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ESPHome&lt;/a&gt;. For these two I will write more guides in other posts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./shellyflash.png&quot; alt=&quot;Shelly 1 flashing&quot;&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
